@@ -1,0 +1,265 @@
+.about-img {
+    padding-top: 90px;
+
+}
+
+#about-us-image {
+    width: 78%;
+}
+uk-features.features-area {
+    padding-top: 50px !important; /* Adjust the value as needed */
+  }
+
+.specializing-in h3{
+    margin:40px 0px 0px 40px !important;
+}
+ 
+.submit-review-area {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.submit-review-area .section-title h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.submit-review-area .bar {
+    width: 50px;
+    height: 4px;
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.review-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-form textarea {
+    width: 100%;
+}
+
+.review-form select {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* Why Choose Us Section */
+#why-choose-us .uk-section-title h2 {
+    color: #0044cc;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#why-choose-us .bar {
+    width: 50px;
+    height: 4px;
+    background-color: #0044cc;
+    margin: 10px auto;
+}
+
+.owl-carousel .tab-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #0044cc;
+    border: 1px solid #0044cc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+    margin: 10px;
+}
+
+.owl-carousel .tab-card:hover {
+    background-color: #0044cc;
+    color: #fff;
+    border-color: #0044cc;
+    transform: translateY(-5px);
+}
+
+.owl-carousel .tab-card .content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.owl-carousel .tab-card .content h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.owl-carousel .tab-card .content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.owl-carousel .tab-card .image {
+    flex-shrink: 0;
+    width: 250px; /* Increased width for larger image */
+}
+
+.owl-carousel .tab-card .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.uk-section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Services Section */
+.custom-services .uk-section-title h2 {
+    color: #0044cc;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.custom-bar {
+    width: 50px;
+    height: 4px;
+    background-color: #0044cc;
+    margin: 10px auto;
+}
+
+.custom-item .custom-single-services {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.custom-item .custom-single-services:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-item .custom-icon img {
+    max-width: 40px;
+    margin-bottom: 10px;
+}
+
+.custom-item .custom-single-services h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.custom-item .custom-link {
+    position: static;
+}
+
+/* Modal */
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.custom-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.custom-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.custom-close:hover,
+.custom-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Project Area */
+.project-area .uk-section-title h2 {
+    color: #0044cc;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.project-area .bar {
+    width: 50px;
+    height: 4px;
+    background-color: #0044cc;
+    margin: 10px auto;
+}
+
+.project-area .uk-button {
+    background-color: #0044cc;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-area .uk-button:hover {
+    background-color: #003399;
+    color: #fff;
+}
+
+.project-slides .custom-single-project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.project-slides .custom-single-project:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-slides .custom-single-project .project-img img {
+    max-width: 40%; /* Further reduce the image size */
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.project-slides .custom-single-project .custom-project-content {
+    margin-top: 15px;
+}
+
+.project-slides .custom-single-project h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.project-slides .custom-single-project p {
+    font-size: 16px;
+    color: #666;
+}
+
